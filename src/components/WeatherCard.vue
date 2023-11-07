@@ -4,6 +4,7 @@ const props = defineProps(['weatherData'])
 
 
 </script>
+ 
 
 <template>
     <!-- Format för väderkorten-->
@@ -19,6 +20,7 @@ const props = defineProps(['weatherData'])
         <p>Vind: <span class="data"> {{ props.weatherData.windSpeed }} </span> m/s från <span class="data"> {{ props.weatherData.windDirection }}</span></p>
     </div>
 </template>
+
 
 <style scoped>
 #card {
